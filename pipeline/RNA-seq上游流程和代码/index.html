@@ -12,26 +12,26 @@
         <meta name="author" content="Yanghc">
       
       
-        <link rel="canonical" href="https://Araon21.github.io/">
+        <link rel="canonical" href="https://Araon21.github.io/pipeline/RNA-seq%E4%B8%8A%E6%B8%B8%E6%B5%81%E7%A8%8B%E5%92%8C%E4%BB%A3%E7%A0%81/">
+      
+      
+        <link rel="prev" href="../../paper/%E6%B5%8B%E8%AF%95/">
       
       
       
-        <link rel="next" href="Archived/">
-      
-      
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
     
     
       
-        <title>Yanghc</title>
+        <title>RNA-seq上游流程和代码 - Yanghc</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,11 +52,11 @@
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
     
-      <link rel="stylesheet" href="mkdocs/css/no-footer.css">
+      <link rel="stylesheet" href="../../mkdocs/css/no-footer.css">
     
-      <link rel="stylesheet" href="mkdocs/css/unordered-list-symbols.css">
+      <link rel="stylesheet" href="../../mkdocs/css/unordered-list-symbols.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#rna-seq" class="md-skip">
           跳转至
         </a>
       
@@ -96,7 +96,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="." title="Yanghc" class="md-header__button md-logo" aria-label="Yanghc" data-md-component="logo">
+    <a href="../.." title="Yanghc" class="md-header__button md-logo" aria-label="Yanghc" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome to MkDocs
+              RNA-seq上游流程和代码
             
           </span>
         </div>
@@ -223,11 +223,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
     
@@ -246,7 +244,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="Archived/" class="md-tabs__link">
+        <a href="../../Archived/" class="md-tabs__link">
           
   
     
@@ -266,7 +264,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="paper/2/" class="md-tabs__link">
+        <a href="../../paper/2/" class="md-tabs__link">
           
   
     
@@ -282,11 +280,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="pipeline/RNA-seq%E4%B8%8A%E6%B8%B8%E6%B5%81%E7%A8%8B%E5%92%8C%E4%BB%A3%E7%A0%81/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
     
@@ -321,7 +321,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Yanghc" class="md-nav__button md-logo" aria-label="Yanghc" data-md-component="logo">
+    <a href="../.." title="Yanghc" class="md-nav__button md-logo" aria-label="Yanghc" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -348,19 +348,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -369,7 +360,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -418,7 +408,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="Archived/" class="md-nav__link ">
+            <a href="../../Archived/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -451,7 +441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" class="md-nav__link">
+      <a href="../../Archived/markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -564,7 +554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/04%E7%94%9F%E4%BF%A1%E5%85%A5%E9%97%A8/00%E7%94%9F%E4%BF%A1%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E7%AD%89/SAM%26BAM/" class="md-nav__link">
+      <a href="../../Archived/04%E7%94%9F%E4%BF%A1%E5%85%A5%E9%97%A8/00%E7%94%9F%E4%BF%A1%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5%E7%AD%89/SAM%26BAM/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -637,7 +627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/04%E7%94%9F%E4%BF%A1%E5%85%A5%E9%97%A8/CHIP-SEQ/01_CHIP%20-SEQ/" class="md-nav__link">
+      <a href="../../Archived/04%E7%94%9F%E4%BF%A1%E5%85%A5%E9%97%A8/CHIP-SEQ/01_CHIP%20-SEQ/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -712,7 +702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/04%E7%94%9F%E4%BF%A1%E5%85%A5%E9%97%A8/RNA_SEQ/RNA-seq%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6/" class="md-nav__link">
+      <a href="../../Archived/04%E7%94%9F%E4%BF%A1%E5%85%A5%E9%97%A8/RNA_SEQ/RNA-seq%E5%88%86%E6%9E%90%E8%BD%AF%E4%BB%B6/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -733,7 +723,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/04%E7%94%9F%E4%BF%A1%E5%85%A5%E9%97%A8/RNA_SEQ/%E5%9F%BA%E5%9B%A0%E8%A1%A8%E8%BE%BE%E5%88%86%E6%9E%90/" class="md-nav__link">
+      <a href="../../Archived/04%E7%94%9F%E4%BF%A1%E5%85%A5%E9%97%A8/RNA_SEQ/%E5%9F%BA%E5%9B%A0%E8%A1%A8%E8%BE%BE%E5%88%86%E6%9E%90/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -884,7 +874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/MA%E5%9B%BE/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/MA%E5%9B%BE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -905,7 +895,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E5%9F%BA%E5%9B%A0%E5%AF%8C%E9%9B%86%E5%88%86%E6%9E%90GSEA/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E5%9F%BA%E5%9B%A0%E5%AF%8C%E9%9B%86%E5%88%86%E6%9E%90GSEA/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -926,7 +916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E6%9B%BC%E5%93%88%E9%A1%BF%E5%9B%BE/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E6%9B%BC%E5%93%88%E9%A1%BF%E5%9B%BE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -947,7 +937,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E6%A1%91%E5%9F%BA%E5%9B%BE/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E6%A1%91%E5%9F%BA%E5%9B%BE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -968,7 +958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E6%A3%AE%E6%9E%97%E5%9B%BE/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E6%A3%AE%E6%9E%97%E5%9B%BE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -989,7 +979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E7%81%AB%E5%B1%B1%E5%9B%BE/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E7%81%AB%E5%B1%B1%E5%9B%BE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1010,7 +1000,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E7%83%AD%E5%9B%BE/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E7%83%AD%E5%9B%BE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1031,7 +1021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E7%9B%B8%E5%85%B3%E6%80%A7%E6%95%A3%E7%82%B9%E5%9B%BEScatter%20ploy/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%9B%B8%E5%85%B3/%E7%9B%B8%E5%85%B3%E6%80%A7%E6%95%A3%E7%82%B9%E5%9B%BEScatter%20ploy/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1106,7 +1096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9F%BA%E5%9B%A0%E7%9B%B8%E5%85%B3/BRAF/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9F%BA%E5%9B%A0%E7%9B%B8%E5%85%B3/BRAF/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1127,7 +1117,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9F%BA%E5%9B%A0%E7%9B%B8%E5%85%B3/%E8%82%BF%E7%98%A4%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E8%9B%8B%E7%99%BD/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E5%9F%BA%E5%9B%A0%E7%9B%B8%E5%85%B3/%E8%82%BF%E7%98%A4%E4%B8%AD%E7%9A%84%E9%87%8D%E8%A6%81%E8%9B%8B%E7%99%BD/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1206,7 +1196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%8A%80%E6%9C%AF/Cosmid%20contig%20%28Cosmid%E8%BF%9E%E7%89%87%29/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%8A%80%E6%9C%AF/Cosmid%20contig%20%28Cosmid%E8%BF%9E%E7%89%87%29/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1227,7 +1217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%8A%80%E6%9C%AF/WES/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%8A%80%E6%9C%AF/WES/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1248,7 +1238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%8A%80%E6%9C%AF/vitalview/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%8A%80%E6%9C%AF/vitalview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1269,7 +1259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%8A%80%E6%9C%AF/%E4%BA%8C%E4%BB%A3%E6%B5%8B%E5%BA%8F/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%8A%80%E6%9C%AF/%E4%BA%8C%E4%BB%A3%E6%B5%8B%E5%BA%8F/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1342,7 +1332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%95%B0%E6%8D%AE%E5%BA%93/refseq/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%95%B0%E6%8D%AE%E5%BA%93/refseq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1415,7 +1405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%B4%BB%E4%BD%93%E7%9B%B8%E5%85%B3/FAA/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E6%B4%BB%E4%BD%93%E7%9B%B8%E5%85%B3/FAA/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1494,7 +1484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BB%84%E5%AD%A6%E6%8A%80%E6%9C%AF/%E5%9F%BA%E4%BA%8E%E5%8E%9F%E4%BD%8D%E6%9D%82%E4%BA%A4%E7%9A%84%E7%A9%BA%E9%97%B4%E8%BD%AC%E5%BD%95%E7%BB%84%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BB%84%E5%AD%A6%E6%8A%80%E6%9C%AF/%E5%9F%BA%E4%BA%8E%E5%8E%9F%E4%BD%8D%E6%9D%82%E4%BA%A4%E7%9A%84%E7%A9%BA%E9%97%B4%E8%BD%AC%E5%BD%95%E7%BB%84%E6%8A%80%E6%9C%AF/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1515,7 +1505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BB%84%E5%AD%A6%E6%8A%80%E6%9C%AF/%E5%9F%BA%E4%BA%8E%E9%AB%98%E9%80%9A%E9%87%8F%E6%B5%8B%E5%BA%8F%EF%BC%88NGS%EF%BC%89%E7%9A%84%E7%A9%BA%E9%97%B4%E8%BD%AC%E5%BD%95%E7%BB%84%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BB%84%E5%AD%A6%E6%8A%80%E6%9C%AF/%E5%9F%BA%E4%BA%8E%E9%AB%98%E9%80%9A%E9%87%8F%E6%B5%8B%E5%BA%8F%EF%BC%88NGS%EF%BC%89%E7%9A%84%E7%A9%BA%E9%97%B4%E8%BD%AC%E5%BD%95%E7%BB%84%E6%8A%80%E6%9C%AF/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1536,7 +1526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BB%84%E5%AD%A6%E6%8A%80%E6%9C%AF/%E6%80%BB%E7%BB%93%E8%A1%A8/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BB%84%E5%AD%A6%E6%8A%80%E6%9C%AF/%E6%80%BB%E7%BB%93%E8%A1%A8/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1557,7 +1547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BB%84%E5%AD%A6%E6%8A%80%E6%9C%AF/%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BB%84%E5%AD%A6%E6%8A%80%E6%9C%AF/%E8%9B%8B%E7%99%BD%E8%B4%A8%E7%BB%84/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1632,7 +1622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/metacharacters/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/metacharacters/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1653,7 +1643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" class="md-nav__link">
+      <a href="../../Archived/07%E4%B8%93%E4%B8%9A%E7%9F%A5%E8%AF%86/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1740,7 +1730,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/R%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E4%B8%8E%E5%AE%9E%E8%B7%B5/" class="md-nav__link">
+      <a href="../../Archived/R/R%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E4%B8%8E%E5%AE%9E%E8%B7%B5/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1761,7 +1751,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/slot/" class="md-nav__link">
+      <a href="../../Archived/R/slot/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1782,7 +1772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/%E7%AC%AC%E4%B8%80%E8%8A%82/" class="md-nav__link">
+      <a href="../../Archived/R/%E7%AC%AC%E4%B8%80%E8%8A%82/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1861,7 +1851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/%E5%AF%B9%E8%B1%A1/00_%E6%8A%80%E5%B7%A7/" class="md-nav__link">
+      <a href="../../Archived/R/%E5%AF%B9%E8%B1%A1/00_%E6%8A%80%E5%B7%A7/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1882,7 +1872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/%E5%AF%B9%E8%B1%A1/01_%E7%9F%A9%E9%98%B5/" class="md-nav__link">
+      <a href="../../Archived/R/%E5%AF%B9%E8%B1%A1/01_%E7%9F%A9%E9%98%B5/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1903,7 +1893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/%E5%AF%B9%E8%B1%A1/02_%E6%95%B0%E7%BB%84/" class="md-nav__link">
+      <a href="../../Archived/R/%E5%AF%B9%E8%B1%A1/02_%E6%95%B0%E7%BB%84/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1924,7 +1914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/%E5%AF%B9%E8%B1%A1/03_%E6%97%A5%E6%9C%9F%E4%B8%8E%E6%97%B6%E9%97%B4/" class="md-nav__link">
+      <a href="../../Archived/R/%E5%AF%B9%E8%B1%A1/03_%E6%97%A5%E6%9C%9F%E4%B8%8E%E6%97%B6%E9%97%B4/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1945,7 +1935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/%E5%AF%B9%E8%B1%A1/04_%E5%88%97%E8%A1%A8/" class="md-nav__link">
+      <a href="../../Archived/R/%E5%AF%B9%E8%B1%A1/04_%E5%88%97%E8%A1%A8/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1966,7 +1956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/%E5%AF%B9%E8%B1%A1/05_%E6%95%B0%E6%8D%AE%E6%A1%86/" class="md-nav__link">
+      <a href="../../Archived/R/%E5%AF%B9%E8%B1%A1/05_%E6%95%B0%E6%8D%AE%E6%A1%86/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1987,7 +1977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/%E5%AF%B9%E8%B1%A1/06_R%E7%9A%84%E8%AE%B0%E5%8F%B7%E4%BD%93%E7%B3%BB/" class="md-nav__link">
+      <a href="../../Archived/R/%E5%AF%B9%E8%B1%A1/06_R%E7%9A%84%E8%AE%B0%E5%8F%B7%E4%BD%93%E7%B3%BB/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2008,7 +1998,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/R/%E5%AF%B9%E8%B1%A1/07_%E5%90%84%E7%A7%8D%E5%87%BD%E6%95%B0/" class="md-nav__link">
+      <a href="../../Archived/R/%E5%AF%B9%E8%B1%A1/07_%E5%90%84%E7%A7%8D%E5%87%BD%E6%95%B0/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2091,7 +2081,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/bioinformatics/FASTQC/" class="md-nav__link">
+      <a href="../../Archived/bioinformatics/FASTQC/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2112,7 +2102,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/bioinformatics/%E8%BD%AC%E5%BD%95%E7%BB%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" class="md-nav__link">
+      <a href="../../Archived/bioinformatics/%E8%BD%AC%E5%BD%95%E7%BB%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2209,7 +2199,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/01_%E6%96%87%E6%9C%AC%E5%88%9B%E5%BB%BA_8.2/" class="md-nav__link">
+      <a href="../../Archived/linux/01_%E6%96%87%E6%9C%AC%E5%88%9B%E5%BB%BA_8.2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2230,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/02_%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86_8.2/" class="md-nav__link">
+      <a href="../../Archived/linux/02_%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86_8.2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2251,7 +2241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/03_%E5%8F%98%E9%87%8F/" class="md-nav__link">
+      <a href="../../Archived/linux/03_%E5%8F%98%E9%87%8F/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2272,7 +2262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/04_%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/" class="md-nav__link">
+      <a href="../../Archived/linux/04_%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2293,7 +2283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/05_%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/" class="md-nav__link">
+      <a href="../../Archived/linux/05_%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2314,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/06_%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/" class="md-nav__link">
+      <a href="../../Archived/linux/06_%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2335,7 +2325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/07_%E5%88%AB%E5%90%8D%E5%88%9B%E5%BB%BA/" class="md-nav__link">
+      <a href="../../Archived/linux/07_%E5%88%AB%E5%90%8D%E5%88%9B%E5%BB%BA/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2356,7 +2346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/09_%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/" class="md-nav__link">
+      <a href="../../Archived/linux/09_%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2377,7 +2367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/10_%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/" class="md-nav__link">
+      <a href="../../Archived/linux/10_%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2398,7 +2388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/conda/" class="md-nav__link">
+      <a href="../../Archived/linux/conda/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2419,7 +2409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E9%85%8D%E7%BD%AE/" class="md-nav__link">
+      <a href="../../Archived/linux/%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E9%85%8D%E7%BD%AE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2440,7 +2430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="md-nav__link">
+      <a href="../../Archived/linux/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2461,7 +2451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/linux/%E7%B4%A2%E5%BC%95/" class="md-nav__link">
+      <a href="../../Archived/linux/%E7%B4%A2%E5%BC%95/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2536,7 +2526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/python/1.Conditional%20and%20Control%20Flow/" class="md-nav__link">
+      <a href="../../Archived/python/1.Conditional%20and%20Control%20Flow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2557,7 +2547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Archived/python/2.FUNCTIONS/" class="md-nav__link">
+      <a href="../../Archived/python/2.FUNCTIONS/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2641,7 +2631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="paper/2/" class="md-nav__link">
+      <a href="../../paper/2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2662,7 +2652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="paper/3/" class="md-nav__link">
+      <a href="../../paper/3/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2683,7 +2673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="paper/%E6%B5%8B%E8%AF%95/" class="md-nav__link">
+      <a href="../../paper/%E6%B5%8B%E8%AF%95/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2708,8 +2698,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -2718,19 +2710,20 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -2741,7 +2734,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Pipeline
@@ -2752,10 +2745,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="pipeline/RNA-seq%E4%B8%8A%E6%B8%B8%E6%B5%81%E7%A8%8B%E5%92%8C%E4%BB%A3%E7%A0%81/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    RNA-seq上游流程和代码
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -2764,6 +2777,176 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 前期准备
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1 前期准备">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 环境搭建
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 数据下载
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 数据下载">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.1 参考基因组文件
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 索引构建
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3 索引构建">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-hisat2fasta" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3.1 hisat2对基因组fasta序列文件构建索引
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-salmonfasta" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3.2 salmon对转录组fasta文件构建索引
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 质控
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2 质控">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-fastqc" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 使用fastqc对原始数据进行质控
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-multiqcqc" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 使用multiqc合并qc结果
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 过滤
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 对过滤完后的数据进行质控
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-hisat2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 hisat2比对
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 定量
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2796,6 +2979,164 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 前期准备
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1 前期准备">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 环境搭建
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 数据下载
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.2 数据下载">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#121" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2.1 参考基因组文件
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3 索引构建
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1.3 索引构建">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#131-hisat2fasta" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3.1 hisat2对基因组fasta序列文件构建索引
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#132-salmonfasta" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3.2 salmon对转录组fasta文件构建索引
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 质控
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2 质控">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-fastqc" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 使用fastqc对原始数据进行质控
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-multiqcqc" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 使用multiqc合并qc结果
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 过滤
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 对过滤完后的数据进行质控
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-hisat2" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 hisat2比对
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 定量
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2809,7 +3150,7 @@
                   
 
   
-    <a href="https://github.com/yanghc23/yanghc23.github.io/edit/main/docs/index.md" title="编辑此页" class="md-content__button md-icon">
+    <a href="https://github.com/yanghc23/yanghc23.github.io/edit/main/docs/pipeline/RNA-seq上游流程和代码.md" title="编辑此页" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -2817,7 +3158,203 @@
   
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs<a class="headerlink" href="#welcome-to-mkdocs" title="Permanent link">&para;</a></h1>
+<h1 id="rna-seq">RNA-seq上游流程和代码<a class="headerlink" href="#rna-seq" title="Permanent link">&para;</a></h1>
+<h2 id="1">1 前期准备<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<h3 id="11">1.1 环境搭建<a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1">conda<span class="w"> </span>creat<span class="w"> </span>-n<span class="w"> </span>rnaseq
+</span><span id="__span-0-2">conda<span class="w"> </span>activate<span class="w"> </span>rna
+</span><span id="__span-0-3"><span class="c1"># 软件下载</span>
+</span><span id="__span-0-4">mamba<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>fastqc<span class="w"> </span>multiqc<span class="w"> </span>trim-galore<span class="w"> </span>hisat2<span class="w"> </span>subread<span class="w"> </span>salmon<span class="w"> </span>samtools
+</span></code></pre></div></td></tr></table></div>
+<h3 id="12">1.2 数据下载<a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
+<h4 id="121">1.2.1 参考基因组文件<a class="headerlink" href="#121" title="Permanent link">&para;</a></h4>
+<ul>
+<li>小鼠(https://www.gencodegenes.org/mouse/releases.html)</li>
+<li>人类(https://www.gencodegenes.org/human/releases.html)
+上面是官网，一般需要的是基因组文件（fq）和注释文件（GTF）
+<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M34/gencode.vM34.transcripts.fa.gz
+</span><span id="__span-1-2">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/gencode.v45.transcripts.fa.gz
+</span><span id="__span-1-3">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M34/gencode.vM34.annotation.gtf.gz
+</span><span id="__span-1-4">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M34/GRCm39.genome.fa.gz
+</span><span id="__span-1-5">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/gencode.v45.annotation.gtf.gz
+</span><span id="__span-1-6">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/GRCh38.p14.genome.fa.gz
+</span></code></pre></div></td></tr></table></div>
+把以上内容写入到一个url.txt文件然后下载就行
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1">mkdir<span class="w"> </span>-p<span class="w"> </span><span class="nv">$HOME</span>/ref
+</span><span id="__span-2-2"><span class="nb">cd</span><span class="w"> </span><span class="nv">$HOME</span>/ref
+</span><span id="__span-2-3"><span class="nv">$cat</span><span class="w"> </span><span class="s">&lt;&lt; EOF &gt;&gt; url.txt</span>
+</span><span id="__span-2-4"><span class="s">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M34/gencode.vM34.transcripts.fa.gz</span>
+</span><span id="__span-2-5"><span class="s">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/gencode.v45.transcripts.fa.gz</span>
+</span><span id="__span-2-6"><span class="s">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M34/gencode.vM34.annotation.gtf.gz</span>
+</span><span id="__span-2-7"><span class="s">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M34/GRCm39.genome.fa.gz</span>
+</span><span id="__span-2-8"><span class="s">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/gencode.v45.annotation.gtf.gz</span>
+</span><span id="__span-2-9"><span class="s">https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_45/GRCh38.p14.genome.fa.gz</span>
+</span><span id="__span-2-10"><span class="s">&gt; EOF</span>
+</span></code></pre></div></td></tr></table></div></li>
+</ul>
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><span class="nb">cd</span><span class="w"> </span><span class="nv">$HOME</span>/ref<span class="w"> </span>
+</span><span id="__span-3-2">wget<span class="w"> </span>-c<span class="w"> </span>-i<span class="w"> </span>url.txt<span class="w">  </span>
+</span><span id="__span-3-3">ls<span class="w"> </span>*gz<span class="w"> </span><span class="p">|</span>xargs<span class="w"> </span>gunzip
+</span></code></pre></div></td></tr></table></div>
+<p>查看一下
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-4-1">ls<span class="w"> </span>-lh<span class="w"> </span><span class="p">|</span>cut<span class="w"> </span>-d<span class="s2">&quot; &quot;</span><span class="w"> </span>-f<span class="w"> </span><span class="m">5</span>-
+</span></code></pre></div></td></tr></table></div></p>
+<p>应该是这样的文件
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-5-1"><span class="o">(</span>rnaseq<span class="o">)</span><span class="w"> </span>yanghc@mgmt01<span class="w"> </span>~/ref
+</span><span id="__span-5-2"><span class="nv">$ls</span><span class="w"> </span>-lh<span class="w"> </span><span class="p">|</span><span class="w"> </span>cut<span class="w"> </span>-d<span class="w"> </span><span class="s2">&quot; &quot;</span><span class="w"> </span>-f<span class="w"> </span><span class="m">5</span>-
+</span><span id="__span-5-3">
+</span><span id="__span-5-4"><span class="m">1</span>.5G<span class="w"> </span>Jan<span class="w"> </span><span class="m">11</span><span class="w"> </span><span class="m">21</span>:28<span class="w"> </span>gencode.v45.annotation.gtf
+</span><span id="__span-5-5">862M<span class="w"> </span>Jan<span class="w"> </span><span class="m">11</span><span class="w"> </span><span class="m">21</span>:33<span class="w"> </span>gencode.vM34.annotation.gtf
+</span><span id="__span-5-6"><span class="m">3</span>.2G<span class="w"> </span>Jan<span class="w"> </span><span class="m">11</span><span class="w"> </span><span class="m">21</span>:27<span class="w"> </span>GRCh38.p14.genome.fa
+</span><span id="__span-5-7"><span class="m">2</span>.6G<span class="w"> </span>Jan<span class="w"> </span><span class="m">11</span><span class="w"> </span><span class="m">21</span>:31<span class="w"> </span>GRCm39.genome.fa
+</span></code></pre></div></td></tr></table></div></p>
+<h3 id="13">1.3 索引构建<a class="headerlink" href="#13" title="Permanent link">&para;</a></h3>
+<h4 id="131-hisat2fasta">1.3.1 hisat2对<strong>基因组</strong>fasta序列文件构建索引<a class="headerlink" href="#131-hisat2fasta" title="Permanent link">&para;</a></h4>
+<p>hisat2工具里面有一个命令是 hisat2-build  ，只需要指定基因组fasta序列文件，以及构建好的索引系列文件的前缀即可：</p>
+<p><div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-6-1">conda<span class="w"> </span>activate<span class="w"> </span>rna
+</span><span id="__span-6-2">
+</span><span id="__span-6-3">hisat2-build<span class="w"> </span>-p<span class="w"> </span><span class="m">8</span><span class="w"> </span>~/ref/GRCh38.p14.genome.fa<span class="w"> </span>~/ref/ht2_index_GRCh38.p14
+</span><span id="__span-6-4">hisat2-build<span class="w"> </span>-p<span class="w"> </span><span class="m">8</span><span class="w"> </span>~/ref/GRCm39.genome.fa<span class="w"> </span>~/ref/ht2_index_GRCm39
+</span></code></pre></div></td></tr></table></div>
+<strong>记住，这个构建好的索引系列文件的前缀非常重要的，后续的hisat2比对，实际上就需要这个前缀。文件大小如下所示：</strong></p>
+<h4 id="132-salmonfasta">1.3.2 salmon对<strong>转录组</strong>fasta文件构建索引<a class="headerlink" href="#132-salmonfasta" title="Permanent link">&para;</a></h4>
+<p>因为salmon和上面的hisat2是同一个团队开发的软件，所以使用起来非常类似。它需要的是转录组的fastq序列文件，而不是参考基因组哦。</p>
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-7-1">nohup<span class="w"> </span>salmon<span class="w"> </span>index<span class="w"> </span>-t<span class="w"> </span>gencode.v45.transcripts.fa<span class="w">   </span>-i<span class="w">   </span>salmon_index_v45<span class="w"> </span><span class="p">&amp;</span><span class="w"> </span>
+</span><span id="__span-7-2">nohup<span class="w"> </span>salmon<span class="w"> </span>index<span class="w"> </span>-t<span class="w"> </span>gencode.vM34.transcripts.fa<span class="w">   </span>-i<span class="w">    </span>salmon_index_vM34<span class="w"> </span><span class="p">&amp;</span><span class="w"> </span>
+</span></code></pre></div></td></tr></table></div>
+<h2 id="2">2 质控<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<h3 id="21-fastqc">2.1 使用fastqc对原始数据进行质控<a class="headerlink" href="#21-fastqc" title="Permanent link">&para;</a></h3>
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-8-1"><span class="c1"># 激活 rnaseq 环境</span>
+</span><span id="__span-8-2">conda<span class="w"> </span>activate<span class="w"> </span>rnaseq
+</span><span id="__span-8-3"><span class="c1"># 进入目标目录</span>
+</span><span id="__span-8-4"><span class="nb">cd</span><span class="w"> </span>/home/sunlab/workspace/test/mhw/raw_data
+</span><span id="__span-8-5"><span class="c1"># 检查上级目录是否存在 FASTQ 文件夹</span>
+</span><span id="__span-8-6"><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-d<span class="w"> </span><span class="s2">&quot;../FASTQ&quot;</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+</span><span id="__span-8-7"><span class="k">else</span>
+</span><span id="__span-8-8"><span class="w">    </span>mkdir<span class="w"> </span>-p<span class="w"> </span>../FASTQ
+</span><span id="__span-8-9"><span class="k">fi</span>
+</span><span id="__span-8-10"><span class="c1"># 运行 fastqc 命令</span>
+</span><span id="__span-8-11">fastqc<span class="w"> </span>-q<span class="w"> </span>-t<span class="w"> </span><span class="m">32</span><span class="w"> </span>-o<span class="w"> </span>../FASTQ/<span class="w"> </span>*.fq.gz
+</span></code></pre></div></td></tr></table></div>
+<h3 id="22-multiqcqc">2.2 使用multiqc合并qc结果<a class="headerlink" href="#22-multiqcqc" title="Permanent link">&para;</a></h3>
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-9-1"><span class="nb">cd</span><span class="w"> </span>~/workspace/test/mhw/raw_data/FASTQ
+</span><span id="__span-9-2">nohup<span class="w"> </span>multiqc<span class="w"> </span>./*.zip<span class="w"> </span>-o<span class="w"> </span>./<span class="w"> </span>&gt;./multiqc.log<span class="w"> </span><span class="p">&amp;</span>
+</span></code></pre></div></td></tr></table></div>
+<h3 id="23">2.3 过滤<a class="headerlink" href="#23" title="Permanent link">&para;</a></h3>
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-10-1"><span class="ch">#!/bin/bash</span>
+</span><span id="__span-10-2">
+</span><span id="__span-10-3"><span class="c1"># 设置输出目录</span>
+</span><span id="__span-10-4"><span class="nv">output_dir</span><span class="o">=</span><span class="s2">&quot;./trimmed_fastq&quot;</span>
+</span><span id="__span-10-5">
+</span><span id="__span-10-6"><span class="c1"># 创建输出目录（如果不存在）</span>
+</span><span id="__span-10-7">mkdir<span class="w"> </span>-p<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$output_dir</span><span class="s2">&quot;</span>
+</span><span id="__span-10-8">
+</span><span id="__span-10-9"><span class="c1"># 遍历文件列表</span>
+</span><span id="__span-10-10"><span class="k">for</span><span class="w"> </span>file<span class="w"> </span><span class="k">in</span><span class="w"> </span>*_R1.fq.gz<span class="p">;</span><span class="w"> </span><span class="k">do</span>
+</span><span id="__span-10-11"><span class="w">    </span><span class="c1"># 提取样本名称</span>
+</span><span id="__span-10-12"><span class="w">    </span><span class="nv">sample_name</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">file</span><span class="p">%%_R1.fq.gz</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span id="__span-10-13">
+</span><span id="__span-10-14"><span class="w">    </span><span class="c1"># 检查R2文件是否存在</span>
+</span><span id="__span-10-15"><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-e<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">sample_name</span><span class="si">}</span><span class="s2">_R2.fq.gz&quot;</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span>
+</span><span id="__span-10-16"><span class="w">        </span><span class="c1"># 运行 trim_galore 命令</span>
+</span><span id="__span-10-17"><span class="w">        </span>nohup<span class="w"> </span>trim_galore<span class="w"> </span>-q<span class="w"> </span><span class="m">25</span><span class="w"> </span>--phred33<span class="w"> </span>--length<span class="w"> </span><span class="m">36</span><span class="w"> </span>--stringency<span class="w"> </span><span class="m">3</span><span class="w"> </span>--paired<span class="w"> </span>-o<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$output_dir</span><span class="s2">&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">sample_name</span><span class="si">}</span><span class="s2">_R1.fq.gz&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">sample_name</span><span class="si">}</span><span class="s2">_R2.fq.gz&quot;</span><span class="w"> </span><span class="p">&amp;</span>
+</span><span id="__span-10-18"><span class="w">    </span><span class="k">else</span>
+</span><span id="__span-10-19"><span class="w">        </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;警告：样本 </span><span class="si">${</span><span class="nv">sample_name</span><span class="si">}</span><span class="s2"> 的R2文件不存在，无法进行双端处理。&quot;</span>
+</span><span id="__span-10-20"><span class="w">    </span><span class="k">fi</span>
+</span><span id="__span-10-21"><span class="k">done</span>
+</span></code></pre></div></td></tr></table></div>
+<h3 id="24">2.4 对过滤完后的数据进行质控<a class="headerlink" href="#24" title="Permanent link">&para;</a></h3>
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-11-1">nohup<span class="w"> </span>fastqc<span class="w"> </span>-t<span class="w"> </span><span class="m">12</span><span class="w"> </span>-o<span class="w"> </span>./<span class="w"> </span>*val*<span class="w"> </span>&gt;<span class="w"> </span>qc_trimmed.log<span class="w"> </span><span class="p">&amp;</span>
+</span><span id="__span-11-2">nohup<span class="w"> </span>multiqc<span class="w"> </span>*.zip<span class="w"> </span>-o<span class="w"> </span>./<span class="w"> </span>&gt;<span class="w"> </span>./multiqc_t.log<span class="w"> </span><span class="p">&amp;</span>
+</span></code></pre></div></td></tr></table></div>
+<h2 id="3-hisat2">3 hisat2比对<a class="headerlink" href="#3-hisat2" title="Permanent link">&para;</a></h2>
+<div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-12-1">ls<span class="w"> </span>*fq.gz<span class="p">|</span><span class="k">while</span><span class="w"> </span><span class="nb">read</span><span class="w"> </span>id<span class="p">;</span><span class="k">do</span><span class="w">  </span>
+</span><span id="__span-12-2"><span class="nv">gtf</span><span class="o">=</span><span class="s1">&#39;$HOME/reference/GRCh38p14.gtf&#39;</span><span class="w">  </span>
+</span><span id="__span-12-3"><span class="nv">hisat_index</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/reference/hisat2_index/</span><span class="si">${</span><span class="nv">id</span><span class="si">}</span><span class="s2">.x.gz&quot;</span><span class="w"> </span><span class="c1"># 这里需要的是建立好的8个文件的前缀，即.x.gz前面的的部分 </span>
+</span><span id="__span-12-4">nohup<span class="w"> </span>sh<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot; hisat2 -p 8 -x </span><span class="si">${</span><span class="nv">hisat_index</span><span class="si">}</span><span class="s2"> -1 </span><span class="si">${</span><span class="nv">id</span><span class="si">}</span><span class="s2">_1_val.fq.gz -2 </span><span class="si">${</span><span class="nv">id</span><span class="si">}</span><span class="s2">_2_val.fq.gz 2&gt;</span><span class="si">${</span><span class="nv">id</span><span class="p">%%_*</span><span class="si">}</span><span class="s2">.log | samtools sort -@ 2 -o </span><span class="si">${</span><span class="nv">id</span><span class="p">%%.*</span><span class="si">}</span><span class="s2">.bam &quot;</span><span class="w"> </span><span class="p">&amp;</span><span class="w">  </span>
+</span><span id="__span-12-5"><span class="k">done</span>
+</span></code></pre></div></td></tr></table></div>
+<h2 id="4">4 定量<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<p><div class="language-sh highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-13-1"><span class="nv">gtf</span><span class="o">=</span><span class="nv">$HOME</span>/reference/GRCh38p14.gtf<span class="w"> </span>
+</span><span id="__span-13-2"><span class="c1"># 根据id定量</span>
+</span><span id="__span-13-3">nohup<span class="w"> </span>featureCounts<span class="w"> </span>-T<span class="w"> </span><span class="m">5</span><span class="w"> </span>-p<span class="w"> </span>-t<span class="w"> </span>exon<span class="w"> </span>-g<span class="w"> </span>gene_id<span class="w"> </span>-a<span class="w"> </span><span class="nv">$gtf</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-13-4">-o<span class="w"> </span>all.id.txt<span class="w"> </span>*bam<span class="w"> </span><span class="m">1</span>&gt;counts.id.log<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">&amp;</span>
+</span><span id="__span-13-5"><span class="c1"># 根据name定量</span>
+</span><span id="__span-13-6">nohup<span class="w"> </span>featureCounts<span class="w"> </span>-T<span class="w"> </span><span class="m">5</span><span class="w"> </span>-p<span class="w"> </span>-t<span class="w"> </span>exon<span class="w"> </span>-g<span class="w"> </span>gene_name<span class="w">  </span>-a<span class="w"> </span><span class="nv">$gtf</span><span class="w"> </span><span class="se">\</span>
+</span><span id="__span-13-7">-o<span class="w">  </span>all.name.txt<span class="w">  </span>*/*.bam<span class="w">  </span><span class="m">1</span>&gt;counts.name.log<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">&amp;</span><span class="w"> </span>
+</span></code></pre></div></td></tr></table></div>
+得到的all.id.txt就是所有需要的定量文件了</p>
 
 
 
@@ -2886,12 +3423,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top", "navigation.indexes", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.indexes", "navigation.expand", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
       
-        <script src="mkdocs/javascripts/katex.js"></script>
+        <script src="../../mkdocs/javascripts/katex.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
       
