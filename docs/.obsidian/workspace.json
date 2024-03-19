@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "097d2cf1a8318143",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bdba2b65e67ba2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffefb5cb58199a49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper/测试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6019c970ebf0a82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paper/3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "54327330dbec131b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c7aad8d2fdc1c2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78214bd36e145752",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0510869fa1661275",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "87cae95b8be702b5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "20c1e3e51279d1f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b73f87138f6c5c77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62c70c839c98ba4d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "paper/测试.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c91831ae22b601ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "paper/测试.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6fa77ff5e087b412",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ac52d87a367e4ed7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "paper/测试.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "78214bd36e145752",
+  "lastOpenFiles": [
+    "pipeline/RNA-seq上游流程和代码",
+    "pipeline",
+    "Archived/07专业知识/基因相关/肿瘤中的重要蛋白.md",
+    "paper/测试.md",
+    "paper/3.md",
+    "paper/2.md",
+    "index.md",
+    "image/Pasted image 20240307133913.png",
+    "image/Pasted image 20240307133840.png",
+    "image/Pasted image 20240307133716.png",
+    "paper/2",
+    "image/Pasted image 20240307133431.png",
+    "paper",
+    "Archived/04生信入门/CHIP-SEQ/01_CHIP -SEQ.md",
+    "image/img/Pasted image 20230508142400.png",
+    "image/img/Boolean+operators+dk_Updated_1-01.svg",
+    "image/img",
+    "image/flowcell结构.png",
+    "image/flowcell结构 1.png",
+    "image/flowcell示意图.png",
+    "image/c47206b9410cc8d6a99d8631fd2fa3f.png",
+    "image/R语言入门与实践 (（美）GARRETT GROLEMUND著) (Z-Library).pdf",
+    "image",
+    "Archived/image/img",
+    "Archived/image/R语言入门与实践 (（美）GARRETT GROLEMUND著) (Z-Library).pdf",
+    "Archived/image",
+    "Archived/07专业知识/编程相关/正则表达式.md",
+    "Archived/07专业知识/基因相关/BRAF.md",
+    "Archived/07专业知识/活体相关/FAA.md",
+    "Archived/07专业知识/编程相关/metacharacters.md",
+    "Archived/07专业知识/图相关/相关性散点图Scatter ploy.md",
+    "Archived/07专业知识/图相关/森林图.md",
+    "Archived/07专业知识/图相关/火山图.md",
+    "Archived/04生信入门/RNA_SEQ/RNA-seq分析软件.md",
+    "Archived/04生信入门/RNA_SEQ/基因表达分析.md",
+    "Archived/04生信入门/00生信相关概念等/SAM&BAM.md",
+    "Archived/04生信入门/CHIP-SEQ",
+    "Archived/07专业知识/组学技术/蛋白质组.md",
+    "Archived/07专业知识/组学技术/总结表.md",
+    "Archived/07专业知识/组学技术/基于高通量测序（NGS）的空间转录组技术.md",
+    "Archived/07专业知识/组学技术/基于原位杂交的空间转录组技术.md",
+    "Archived/07专业知识/数据库/refseq.md",
+    "Archived/07专业知识/技术/条件性偏好程序.canvas",
+    "Archived/07专业知识/技术/二代测序.md",
+    "Archived/07专业知识/技术/vitalview.md",
+    "Archived/07专业知识/技术/WES.md",
+    "Archived/07专业知识/技术/Cosmid contig (Cosmid连片).md"
+  ]
+}
